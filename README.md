@@ -5,7 +5,9 @@ It is an arduino project using the TFT_eSPI library (which contains the Animated
 
 ## Getting started
 Clone this repository
-git clone 
+```
+git clone https://github.com/cheops/fri3dCamp_Badge2020_Animated_Eye
+```
 
 ### Additional board managers url
 1. In the Arduino IDE, go to File > Preferences > Additional board managers URLs:
