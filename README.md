@@ -2,18 +2,18 @@
 
 It is an arduino project using the TFT_eSPI library (which contains the Animated_Eyes_1 demo)
 
-##Getting started
+## Getting started
 Clone this repository
 git clone 
 
-###Additional board managers url
+### Additional board managers url
 1. In the Arduino IDE, go to File > Preferences > Additional board managers URLs:
 2. Add https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
   Note: if you already have another boards URL, you can separate the URLs with a comma
 3. Open the Boards Manager. Go to Tools > Board > Boards Manager…
 4. Search for ESP32 and press install button for the "ESP32 by Espressif Systems"
 
-###Install Arduino libraries:
+### Install Arduino libraries:
 1. In the Arduino IDE, go to Sketch > include library > Manage Libraries:
 2. Search for TFT_eSPI and click on install
 3. (optional) Search for SparkFun_LIS2DH12_Arduino_Library and click on install
@@ -36,7 +36,7 @@ https://github.com/Bodmer/TFT_eSPI#Tips
 1. Press the Upload button, or go to Sketch > Upload
 
 
-##Additional info
+## Additional info
 The display switch should be in the ON position (down)
 If you want to enable the display backlight also when in the AUTO position then uncomment line 89
 ```
