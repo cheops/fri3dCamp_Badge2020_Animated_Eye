@@ -46,3 +46,6 @@ If you want to enable the display backlight also when in the AUTO position then 
 #define BACKLIGHT_CONNECTED_TO_LIS
 ```
 This will configure the interrupt pin of the LIS accelerometer to be always on
+
+## Manual blink the eye
+Press the Boot button on the back to manually blink the eye

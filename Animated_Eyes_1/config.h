@@ -38,7 +38,7 @@
 // EYE LIST ----------------------------------------------------------------
 #define NUM_EYES 1 // Number of eyes to display (1 or 2)
 
-#define BLINK_PIN   -1 // Pin for manual blink button (BOTH eyes)
+#define BLINK_PIN   0  // Pin for manual blink button (BOTH eyes)
 #define LH_WINK_PIN -1 // Left wink pin (set to -1 for no pin)
 #define RH_WINK_PIN -1 // Right wink pin (set to -1 for no pin)
 
