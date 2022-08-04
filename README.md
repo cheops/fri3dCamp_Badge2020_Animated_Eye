@@ -1,6 +1,7 @@
 # This is the animated eye demo configured for the fri3d2022 Badge
 
 It is an arduino project using the TFT_eSPI library (which contains the Animated_Eyes_1 demo)
+![](fri3d2022_badge_animated_eye.jpg)
 
 ## Getting started
 Clone this repository
