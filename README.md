@@ -11,7 +11,7 @@ git clone https://github.com/cheops/fri3dCamp_Badge2020_Animated_Eye
 
 ### Additional board managers url
 1. In the Arduino IDE, go to File > Preferences > Additional board managers URLs:
-2. Add https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+2. Add https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json  
   Note: if you already have another boards URL, you can separate the URLs with a comma
 3. Open the Boards Manager. Go to Tools > Board > Boards Manager…
 4. Search for ESP32 and press install button for the "ESP32 by Espressif Systems"
@@ -23,13 +23,13 @@ git clone https://github.com/cheops/fri3dCamp_Badge2020_Animated_Eye
 
 ### Configure TFT_eSPI
 copy User_setup.h to TFT_eSPI in your Arduino libraries folder  
-  you can find the Arduino libraries folder like this:
-  In the Arduino IDE, go to File > Preferences > Sketchbook location:
-  go to this folder/libraries/TFT_eSPI and overwrite User_setup.h with the file from this repository
-  if Arduino IDE caches the compiled library, restarting the IDE might help
+you can find the Arduino libraries folder like this:  
+In the Arduino IDE, go to File > Preferences > Sketchbook location:  
+go to this folder/libraries/TFT_eSPI and overwrite User_setup.h with the file from this repository  
+if Arduino IDE caches the compiled library, restarting the IDE might help  
 
-more info can be found here
-https://github.com/Bodmer/TFT_eSPI#Tips
+more info can be found here  
+https://github.com/Bodmer/TFT_eSPI#Tips  
 
 ### Select the correct board
 1. Open the file Animated_Eyes_1/Animated_Eyes_1.ino from this repository in the arduino IDE
@@ -41,7 +41,7 @@ https://github.com/Bodmer/TFT_eSPI#Tips
 
 
 ## Additional info
-The display switch should be in the ON position (down)
+The display switch should be in the ON position (down)  
 If you want to enable the display backlight also when in the AUTO position then uncomment line 89
 ```
 #define BACKLIGHT_CONNECTED_TO_LIS
