@@ -26,6 +26,7 @@ copy User_setup.h to TFT_eSPI in your Arduino libraries folder
   you can find the Arduino libraries folder like this:
   In the Arduino IDE, go to File > Preferences > Sketchbook location:
   go to this folder/libraries/TFT_eSPI and overwrite User_setup.h with the file from this repository
+  if Arduino IDE caches the compiled library, restarting the IDE might help
 
 more info can be found here
 https://github.com/Bodmer/TFT_eSPI#Tips
